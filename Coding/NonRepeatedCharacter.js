@@ -14,7 +14,7 @@ const NonRepeatedCharacter = (str) => {
 
    //Find the first character with count of 1 which is non repeated
    for(let char of str){
-     // If asked for the first repeated character, then compare it like if  if(charCount[char] > 1
+     // If asked for the first repeated character, then compare it like if  if(charCount[char] >  + 1
      if (charCount[char] === 1) {
        return char;
      }

@@ -1,0 +1,1 @@
+// "flower", "flex", "flow" then output will be : "fl"
