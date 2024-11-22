@@ -1,0 +1,12 @@
+In JavaScript, inheritance is achieved through prototype chain. Every object in JavaScript has internal property 
+called [[Prototype]], which points to another object.
+
+Prototypes allow one object to inherit properties and methods from another.
+
+How it works?
+    - When you access a property or a method on an object, JS first looks for it on the object itself.
+    - If it's not found, JS looks up the prototype chain until it finds the property or reaches null.
+
+
+    Refer Inheritance.js for an example code.
+    
