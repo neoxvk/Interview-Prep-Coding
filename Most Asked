@@ -1,0 +1,21 @@
+1. What are the most used ES6 features?
+The most used ES6 features are:
+  - Let and Const: These are block-scoped variables replace var for better scoping and immutability.
+
+  - Arrow functions: Concise syntax for functions with implicit 'this' binding.
+      const fun = (a, b) => a+b;
+  - Template literals : Easier string interpolation. Dynamic strings.
+      const message = `Hello, ${name}!`;
+  - Destructuring: Extract values from Arrays and objects
+      const {firstName, lastName} = person;
+  - Default parameters: Assign default values to function parameters.
+        function greet(name = "Guest") {
+              console.log(`Hello, ${name}`);
+        }
+  - Spread and Rest operators: Spread for expanding and rest for collecting.
+            const arr = [1, 2, ...moreValues];
+            const [first, ...rest] = arr;
+
+  - Modules: Use import and export for modular code.
+  - Promises: Simplify Asynchronous programming.
+  - Classes: Introduced object-oriented syntax.
